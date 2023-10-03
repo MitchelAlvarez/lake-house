@@ -3,6 +3,8 @@ import logo from "../images/Lakehouse_logo.png"
 import facebookIco from "../images/icons/icon-facebook.ico"
 import instagramIco from "../images/icons/icon-instagram.ico"
 import { CollapseMenu } from "./CollapseMenu";
+
+
 export default function Root() {
     return (
         <>
@@ -15,8 +17,8 @@ export default function Root() {
                 <nav className="bigNav">
                     <ul role="menu">
                         <li role="menuitem" className="menu-item"><NavLink to="/"><i className="fa-solid fa-house">Home</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="#"><i className="fa-solid fa-motorcycle">Order Online</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="menue"><i className="fa-solid fa-sheet-plastic">Menue</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="order"><i className="fa-solid fa-motorcycle">Order Online</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="menu"><i className="fa-solid fa-sheet-plastic">Menue</i></NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="contact_us"><i className="fa-solid fa-address-card">Contact Us</i></NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="catering"><i className="fa-solid fa-fire-burner">Catering</i></NavLink></li>
                     </ul>

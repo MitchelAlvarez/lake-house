@@ -98,6 +98,11 @@ header nav ul {
     color: var(--clr-primary-dark);
 }
 
+.menu-item a.active {
+    color: var(--clr-primary-dark);
+    text-decoration: underline;
+}
+
 .social-media img {
     height: 2.5rem;
     width: 2.5rem;
