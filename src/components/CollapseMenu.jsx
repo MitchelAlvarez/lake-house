@@ -39,11 +39,11 @@ export function CollapseMenu() {
                 visible &&
                 <nav className="nav-collapse">
                     <ul role="menu">
-                        <li role="menuitem" className="menu-item"><NavLink to="/"><i className="fa-solid fa-house">Home</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="#"><i className="fa-solid fa-motorcycle">Order Online</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="menue"><i className="fa-solid fa-sheet-plastic">Menue</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="contact_us"><i className="fa-solid fa-address-card">Contact Us</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="catering"><i className="fa-solid fa-fire-burner">Catering</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="/" onClick={() => setVisible(!visible)}><i className="fa-solid fa-house">Home</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="order"><i className="fa-solid fa-motorcycle">Order Online</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="menu" onClick={() => setVisible(!visible)}><i className="fa-solid fa-sheet-plastic">Menue</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="contact_us" onClick={() => setVisible(!visible)}><i className="fa-solid fa-address-card">Contact Us</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="catering" onClick={() => setVisible(!visible)}><i className="fa-solid fa-fire-burner">Catering</i></NavLink></li>
                         <li>
                             <div className="social-media_collapse">
                                 <ul>

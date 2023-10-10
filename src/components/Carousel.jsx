@@ -1,55 +1,25 @@
 import "../css/Carousel.css"
-import logo from "../images/Lakehouse_logo.png"
+import breakfast from "../images/breakfast.jpg"
+import bbq from "../images/bbq.jpg"
+import beer from "../images/beer.jpg"
 export default function Carousel() {
     return (
         <>
-            <section class="carousel" aria-label="Gallery">
-                <ol class="carousel__viewport">
-                    <li id="carousel__slide1"
-                        tabindex="0"
-                        class="carousel__slide">
-                        <div class="carousel__snapper">HOLAS</div>
-                    </li>
-                    <li id="carousel__slide2"
-                        tabindex="0"
-                        class="carousel__slide">
-                        <div class="carousel__snapper"></div>
+            <div className="slider-container">
 
-                    </li>
-                    <li id="carousel__slide3"
-                        tabindex="0"
-                        class="carousel__slide">
-                        <div class="carousel__snapper"></div>
+                <div className="slider">
+                    <div className="slide slide1">
+                        <img src={breakfast} alt="Imagen 1" />
+                    </div>
+                    <div className="slide slide2">
+                        <img src={bbq} alt="Imagen 2" />
+                    </div>
+                    <div className="slide slide3">
+                        <img src={beer} alt="Imagen 3" />
+                    </div>
+                </div>
+            </div>
 
-                    </li>
-                    <li id="carousel__slide4"
-                        tabindex="0"
-                        class="carousel__slide">
-                        <div class="carousel__snapper"></div>
-
-                    </li>
-                </ol>
-                <aside class="carousel__navigation">
-                    <ol class="carousel__navigation-list">
-                        <li class="carousel__navigation-item">
-                            <a href="#carousel__slide1"
-                                class="carousel__navigation-button">Go to slide 1</a>
-                        </li>
-                        <li class="carousel__navigation-item">
-                            <a href="#carousel__slide2"
-                                class="carousel__navigation-button">Go to slide 2</a>
-                        </li>
-                        <li class="carousel__navigation-item">
-                            <a href="#carousel__slide3"
-                                class="carousel__navigation-button">Go to slide 3</a>
-                        </li>
-                        <li class="carousel__navigation-item">
-                            <a href="#carousel__slide4"
-                                class="carousel__navigation-button">Go to slide 4</a>
-                        </li>
-                    </ol>
-                </aside>
-            </section>
         </>
     )
 }

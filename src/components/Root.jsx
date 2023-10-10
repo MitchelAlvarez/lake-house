@@ -18,7 +18,7 @@ export default function Root() {
                     <ul role="menu">
                         <li role="menuitem" className="menu-item"><NavLink to="/"><i className="fa-solid fa-house">Home</i></NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="order"><i className="fa-solid fa-motorcycle">Order Online</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="menu"><i className="fa-solid fa-sheet-plastic">Menue</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="menu"><i className="fa-solid fa-sheet-plastic">Menu</i></NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="contact_us"><i className="fa-solid fa-address-card">Contact Us</i></NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="catering"><i className="fa-solid fa-fire-burner">Catering</i></NavLink></li>
                     </ul>

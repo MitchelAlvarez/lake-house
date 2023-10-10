@@ -24,11 +24,15 @@ html {
     background-image: url(./images/backgrounds/fondo-pergamino3-min.jpg);
     background-size: cover;
     font-size: 1, 125rem;
+    width: 100%;
+    height: 100%;
 }
 
 body {
     margin: 0;
     text-align: center;
+    min-height: 100%;
+    width: 100%;
 
 }
 
@@ -114,7 +118,11 @@ header nav ul {
     position: sticky;
 }
 
-@media only screen and (max-width: 899px) {
+main {
+    height: 100%;
+}
+
+@media only screen and (max-width: 1154px) {
     header {
         height: 80px;
     }
@@ -122,6 +130,10 @@ header nav ul {
     .bigNav,
     .social-media {
         display: none !important;
+    }
+
+    .navbar_logo {
+        padding-left: 2rem
     }
 
     .navbar_logo img {
@@ -180,7 +192,7 @@ header nav ul {
     }
 
     .menu-open {
-        margin-top: 300px;
+        margin-top: 450px;
         /* Ajusta el valor según sea necesario para evitar la superposición */
     }
 }
