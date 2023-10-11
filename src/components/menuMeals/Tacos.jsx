@@ -9,6 +9,7 @@ export function Tacos() {
         const categoryMenu = 'Tacos'
         getMenuCategory({ categoryMenu })
             .then(response => {
+                console.log(response)
                 setCsvDataJson(response)
             })
     }, [])
@@ -21,8 +22,8 @@ export function Tacos() {
                     {
                         csvDataJson.map(p => {
                             return (<li key={p.producto_id}>
-                                <h3 className="tcs img_normal_r img-middle_r">{`${p.nombre_producto} ${p.precio ? ' $' : ' '} ${p.precio}`}</h3>
-                                <p>{p.descripcion}</p>
+                                <h3 className="tcs img_normal_r img-middle_r">{`${p.nombre_producto} ${p.precio > 0 ? ' $' + p.precio : ' '}`}</h3>
+                                <p>{p.descripcion.replaceAll(';', ',')}</p>
                                 <h4>{p.costo_extra}</h4>
                             </li>)
                         })

@@ -1,7 +1,9 @@
+import menuLinks from "../services/MenuLinks.json"
 const getCsvFromGoogleSheet = ({ googleSheetURL }) => {
     return fetch(googleSheetURL)
         .then(response => response.text())
         .then(data => {
+            console.log(data)
             return data.replaceAll('"', '')
         })
         .catch(error => {
@@ -9,9 +11,11 @@ const getCsvFromGoogleSheet = ({ googleSheetURL }) => {
         });
 }
 const transformCsvToJson = (csv) => {
-    const csvArr = csv.split(/\r\n|\r|\n/, -1)
+    const csvArr = csv.split('\n')
+    console.log(csvArr)
     // Obtiene los encabezados (primera fila)
     const headers = csvArr[0].split(',');
+    console.log
     // Inicializa un arreglo para almacenar los datos en formato JSON
     const csvJsonData = [];
 
@@ -33,25 +37,13 @@ const transformCsvToJson = (csv) => {
 }
 
 export function getMenuCategory({ categoryMenu }) {
-    let googleSheetURL = null
-    categoryMenu === 'Starters'
-        ? googleSheetURL = 'https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=0'
-        : categoryMenu === 'Nachos'
-            ? googleSheetURL = 'https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1144644498'
-            : categoryMenu === 'Salads'
-                ? googleSheetURL = 'https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=2018204640'
-                : categoryMenu === 'Tacos'
-                    ? googleSheetURL = 'https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1564942793'
-                    : categoryMenu === 'Mexican'
-                        ? googleSheetURL = 'https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1499371270'
-                        : googleSheetURL = ''
-
-
-
+    let googleSheetURL = menuLinks[categoryMenu]
+    console.log(googleSheetURL)
 
     //return fetch(googleSheetURL)
     return getCsvFromGoogleSheet({ googleSheetURL })
         .then(data => {
+            console.log(data)
             return transformCsvToJson(data)
 
         })

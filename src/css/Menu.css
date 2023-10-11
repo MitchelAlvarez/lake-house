@@ -110,7 +110,7 @@ nav a:focus {
 
 .column-left {
     margin: 0 auto;
-    border-right: 1px solid var(--clr-text);
+    /*border-right: 1px solid var(--clr-text);*/
     padding-right: 3.44828%;
     float: left;
     width: 50%;

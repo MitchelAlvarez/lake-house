@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getMenuCategory } from "../../services/menuFetch";
 import style from "../../css/Menu.css"
 
-export function Startes() {
+export function Starters() {
     const [csvDataJson, setCsvDataJson] = useState([])
 
     useEffect(() => {
@@ -21,8 +21,8 @@ export function Startes() {
                     {
                         csvDataJson.map(p => {
                             return (<li key={p.producto_id}>
-                                <h3 className="strt1 img_normal_l img-middle_l">{`${p.nombre_producto} ${p.precio ? ' $' : ' '} ${p.precio}`}</h3>
-                                <p>{p.descripcion}</p>
+                                <h3 className="strt1 img_normal_l img-middle_l">{`${p.nombre_producto} ${p.precio > 0 ? ' $' + p.precio : ' '}`}</h3>
+                                <p>{p.descripcion.replaceAll(';', ',')}</p>
                                 <h4>{p.costo_extra}</h4>
                             </li>)
                         })
