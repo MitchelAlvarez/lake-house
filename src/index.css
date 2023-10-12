@@ -124,7 +124,7 @@ main {
 
 @media only screen and (max-width: 1154px) {
     header {
-        height: 80px;
+        height: inherit;
     }
 
     .bigNav,
@@ -161,7 +161,7 @@ main {
     .nav-collapse {
         display: flex;
         position: absolute;
-        top: 80px;
+        top: 135px;
         /* Altura del botón */
         left: 0;
         width: 100%;

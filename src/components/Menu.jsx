@@ -1,26 +1,40 @@
-import { Mexican } from "./menuMeals/Mexican";
-import { Nachos } from "./menuMeals/Nachos";
-import { Salads } from "./menuMeals/Salads";
-import { Starters } from "./menuMeals/Starters";
-import { Tacos } from "./menuMeals/Tacos";
+import { Mexican } from "./menuComponents/Mexican";
+import { Nachos } from "./menuComponents/Nachos";
+import { Salads } from "./menuComponents/Salads";
+import { Starters } from "./menuComponents/Starters";
+import { Tacos } from "./menuComponents/Tacos";
 import style from "../css/Menu.css"
-import { GoTop } from "./menuMeals/GoTop";
+import { GoTop } from "./menuComponents/GoTop";
+import { Wrap } from "./menuComponents/Wraps";
+import menuMealsJson from "../services/menuMeals.json"
+import { Meals } from "./menuComponents/Meals";
+import { useState } from "react";
 
 
 
 export default function Menu() {
+    const [subMenu, setSubMenu] = useState('Meals')
+    const menuMealArray = Object.keys(menuMealsJson)
+
+
+    console.log(subMenu)
     return (
         <>
+            <section className="sub-menu">
+                <div><button onClick={() => setSubMenu("Break Fast")}>Break Fast</button></div>
+                <div><button onClick={() => setSubMenu("Meals")}>Meals & Dinners</button></div>
+                <div><button onClick={() => setSubMenu("Drinks")}>Drinks</button></div>
+            </section>
             <section className="container column-layout two-equal">
-                <section className="column-left">
-                    <Starters />
-                    <Nachos />
-                    <Salads />
-                </section>
-                <section className="column-rigth">
-                    <Tacos />
-                    <Mexican />
-                </section>
+                {subMenu === 'Meals' &&
+                    <Meals />
+                }
+                {
+                    subMenu === 'Break Fast' &&
+                    <h1>BREAK FAST</h1>
+                }
+
+
             </section>
             <GoTop />
 

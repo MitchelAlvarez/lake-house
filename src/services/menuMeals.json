@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "nombre": "Starters",
+        "csvId": "979126604",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "2",
+        "nombre": "Nachos",
+        "csvId": "1144644498",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "3",
+        "nombre": "Salads",
+        "csvId": "2018204640",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "4",
+        "nombre": "Wraps",
+        "csvId": "1572721594",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "5",
+        "nombre": "Tacos",
+        "csvId": "1564942793",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "6",
+        "nombre": "Mexican",
+        "csvId": "1499371270",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "7",
+        "nombre": "Burgers",
+        "csvId": "552136680",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "8",
+        "nombre": "Baskets",
+        "csvId": "612218885",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "9",
+        "nombre": "Pasta",
+        "csvId": "732558607",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "10",
+        "nombre": "BBQ Meats A la Carta",
+        "csvId": "1983611160",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "11",
+        "nombre": "Meats By The Pound",
+        "csvId": "15153949",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "12",
+        "nombre": "Kids Meals",
+        "csvId": "629197575",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "13",
+        "nombre": "Sandwiches",
+        "csvId": "536411383",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "14",
+        "nombre": "Dinners",
+        "csvId": "1020181470",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "15",
+        "nombre": "Sides",
+        "csvId": "979126604",
+        "menuSide": "column-rigth"
+    }
+]
