@@ -48,10 +48,10 @@ export function CollapseMenu() {
                             <div className="social-media_collapse">
                                 <ul>
                                     <li>
-                                        <a href=""><img src={facebookIco} alt="fecebook-icon" /></a>
+                                        <a href="https://www.facebook.com/profile.php?id=61550230981807&mibextid=LQQJ4d"><img src={facebookIco} alt="fecebook-icon" /></a>
                                     </li>
                                     <li>
-                                        <a href=""><img src={instagramIco} alt="fecebook-icon" /></a>
+                                        <a href="https://instagram.com/lakehouse.brew.bbq?igshid=MzRlODBiNWFlZA=="><img src={instagramIco} alt="fecebook-icon" /></a>
                                     </li>
                                 </ul>
                             </div>

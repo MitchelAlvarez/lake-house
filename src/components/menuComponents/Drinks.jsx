@@ -1,9 +1,9 @@
-import menuItems from "../../services/menuBreakfast.json"
+import menuItems from "../../services/MenuDrinks.json"
 import { SubMenuItems } from "./SubMenuItem";
 import style from "../../css/Menu.css"
 
 
-export function Breakfast() {
+export function Drinks() {
     return (
         <>
             <section className="column-left">

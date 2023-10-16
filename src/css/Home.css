@@ -5,3 +5,55 @@ h1 {
 h2 {
     padding-bottom: 1rem;
 }
+
+.container-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.publicity {
+    height: 35rem;
+}
+
+
+
+.dish_day {
+    background: var(--clr-text);
+    background-image: url(../images/bbq.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-size: 35%;
+    background-position: center;
+    padding: 3em 1em 1em;
+    color: white;
+    width: 35%;
+    height: 30rem
+}
+
+.dish_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}
+
+@media only screen and (max-width:650px) {
+    .container-home {
+        width: 90%;
+        padding-left: 2rem;
+    }
+
+    .publicity {
+        height: 25rem;
+    }
+
+    .dish_day {
+        padding-bottom: 5rem;
+        background-size: 100%;
+        background-position: unset;
+    }
+}

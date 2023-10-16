@@ -108,6 +108,7 @@ nav a:focus {
     color: white;
     background-color: var(--clr-primary-dark);
     border: none;
+    font-size: x-large;
 }
 
 .sub-menu button:hover {
@@ -223,6 +224,31 @@ nav a:focus {
 
 }
 
+/* phone*/
+.phone_container {
+    position: fixed;
+    bottom: -1rem;
+    left: 92%;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
+    display: none;
+}
+
+.phone-button {
+    width: 0rem;
+    height: 0rem;
+    background: var(--clr-primary-dark);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .2s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+
+}
+
 .go-top-button i {
     position: absolute;
     font-size: 1.7rem;
@@ -233,11 +259,21 @@ nav a:focus {
     transition: .2s;
 }
 
+.phone-button i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: #fff;
+    transition: .2s;
+}
+
 .show {
     z-index: 10;
 }
 
-.show .go-top-button {
+.show .go-top-button,
+.show .phone-button {
     animation: popup .35 ease-in-out;
     width: 3.6rem;
     height: 3.6rem;
@@ -279,9 +315,18 @@ nav a:focus {
         font-size: 1.5em;
     }
 
-    .column-left,
-    .column-rigth {
+    .sub-menu {
+        gap: 3rem;
+    }
+
+    .sub-menu button {
+        font-size: large;
+    }
+
+
+    .column-left {
         width: inherit;
+        border-right: none;
     }
 
     .column-rigth {
@@ -289,6 +334,8 @@ nav a:focus {
         padding-right: 3.44828%;
         padding-left: 0px;
         float: left;
+        width: inherit;
+        border-right: none;
     }
 
     .column-left>ul,
@@ -300,11 +347,6 @@ nav a:focus {
         flex-direction: column;
     }
 
-    .column-left,
-    .column-rigth {
-        border-right: none;
-    }
-
     .menue-topic>ul {
         padding-left: 5px
     }
@@ -313,6 +355,13 @@ nav a:focus {
     .sub-item>h4 {
         width: 95%;
         padding-left: 1rem
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .phone_container {
+        display: block;
     }
 
 }

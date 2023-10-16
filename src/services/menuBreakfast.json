@@ -1,18 +1,44 @@
-{
-    "BF Traditional": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=227218482",
-    "Scrambles": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1624223238",
-    "BF Specialties": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=410593330",
-    "Belgian Waffles": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=2037289160",
-    "French Toast": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=762835174",
-    "Pancakes": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1143782756",
-    "BF Kids": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1564141541",
-    "Soft Drinks": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1414610469",
-    "Aguas Frescas": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1541775911",
-    "Hot Drinks": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1684102156",
-    "Bottled Drinks": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=2033193230",
-    "Juices & More": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=815563344",
-    "On Tap": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=35156341",
-    "Bottle & Other": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1472625821",
-    "W&S Wine": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=12062634",
-    "Red Wine": "https://docs.google.com/spreadsheets/d/1-zZtPT0B0vC-bbic55ulKfgXX3mXh8BTxXA3tBSKhBM/gviz/tq?tqx=out:csv&gid=1146158274"
-}
+[
+    {
+        "id": "1",
+        "nombre": "Breakfast Traditional",
+        "csvId": "227218482",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "2",
+        "nombre": "Western Scrambles and Omelet",
+        "csvId": "1624223238",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "3",
+        "nombre": "Breakfast Specialties",
+        "csvId": "410593330",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "4",
+        "nombre": "Belgian Waffles",
+        "csvId": "2037289160",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "5",
+        "nombre": "French Toast",
+        "csvId": "762835174",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "6",
+        "nombre": "Pancakes",
+        "csvId": "1143782756",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "7",
+        "nombre": "Kids Menu",
+        "csvId": "1564141541",
+        "menuSide": "column-rigth"
+    }
+]

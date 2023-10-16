@@ -16,20 +16,20 @@ export default function Root() {
                 </section>
                 <nav className="bigNav">
                     <ul role="menu">
-                        <li role="menuitem" className="menu-item"><NavLink to="/"><i className="fa-solid fa-house">Home</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="order"><i className="fa-solid fa-motorcycle">Order Online</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="menu"><i className="fa-solid fa-sheet-plastic">Menu</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="contact_us"><i className="fa-solid fa-address-card">Contact Us</i></NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="catering"><i className="fa-solid fa-fire-burner">Catering</i></NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="/">Home</NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="https://lakehousebbq.hrpos.heartland.us/menu">Order Online</NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="menu">Menu</NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="contact_us">Contact Us</NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="catering">Catering</NavLink></li>
                     </ul>
                 </nav>
                 <section className="social-media">
                     <ul>
                         <li>
-                            <a href=""><img src={facebookIco} alt="fecebook-icon" /></a>
+                            <a href="https://www.facebook.com/profile.php?id=61550230981807&mibextid=LQQJ4d"><img src={facebookIco} alt="fecebook-icon" /></a>
                         </li>
                         <li>
-                            <a href=""><img src={instagramIco} alt="fecebook-icon" /></a>
+                            <a href="https://instagram.com/lakehouse.brew.bbq?igshid=MzRlODBiNWFlZA=="><img src={instagramIco} alt="fecebook-icon" /></a>
                         </li>
                     </ul>
                 </section>

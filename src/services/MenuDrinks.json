@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "nombre": "Soft Drinks",
+        "csvId": "1414610469",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "2",
+        "nombre": "Aguas Frescas",
+        "csvId": "1541775911",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "3",
+        "nombre": "Hot Drinks",
+        "csvId": "1684102156",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "4",
+        "nombre": "Bottled Drinks",
+        "csvId": "2033193230",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "5",
+        "nombre": "Juices & More",
+        "csvId": "815563344",
+        "menuSide": "column-left"
+    },
+    {
+        "id": "6",
+        "nombre": "On Tap",
+        "csvId": "35156341",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "7",
+        "nombre": "Bottle & Other",
+        "csvId": "1472625821",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "8",
+        "nombre": "White & Sparkling Wine",
+        "csvId": "12062634",
+        "menuSide": "column-rigth"
+    },
+    {
+        "id": "9",
+        "nombre": "Red Wine",
+        "csvId": "1146158274",
+        "menuSide": "column-rigth"
+    }
+]
