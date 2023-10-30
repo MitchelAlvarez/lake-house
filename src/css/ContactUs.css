@@ -73,10 +73,10 @@ h2 {
         gap: 2rem;
     }
 
-    .social_media>img {
+    .social_media img {
         padding: 5px;
         width: 5rem;
-        height: 7rem;
+        height: 5rem;
     }
 
 }

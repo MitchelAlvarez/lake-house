@@ -1,6 +1,6 @@
 import "../css/Carousel.css"
-import breakfast from "../images/breakfast.jpg"
-import bbq from "../images/bbq.jpg"
+import breakfast from "../images/breakfast.jpeg"
+import bbq from "../images/bbq.jpeg"
 import beer from "../images/beer.jpg"
 export default function Carousel() {
     return (

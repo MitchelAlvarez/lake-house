@@ -36,6 +36,18 @@ export default function Menu() {
             <GoTop />
             <Phone />
 
+            <aside>
+                <p>
+                    All specialty Sandiwches, burgers, baskets and wraps are served with one side:
+                    hand-cut fries, cup of tri-tip chili, soup, mac & cheese, or homemade coleslaw.
+                </p>
+                <p>
+                    Sub onion strings, chili fires, garlic fries and small salad bar $2.00
+                </p>
+            </aside>
+            <footer>
+
+            </footer>
 
 
 

@@ -25,8 +25,14 @@ export default function Catering() {
                         serving utensilis
                     </h3>
                 </div>
+                <div className="catering7 catering">
+                    <h1>$15/person</h1>
+                    <h3>
+                        3 Quesabirrias with consome, rice, beans and salsa
+                    </h3>
+                </div>
                 <div className="catering2 catering">
-                    <h1>$50 PARTY PACKS</h1>
+                    <h1>$55 PARTY PACKS</h1>
                     <h3>
                         3lbs meat(no ribs) Feeds up to 8 people
                     </h3>
@@ -47,7 +53,7 @@ export default function Catering() {
                     </h3>
                 </div>
                 <div className="catering6 catering">
-                    <h1>$30 PARTY PACK</h1>
+                    <h1>$35 PARTY PACK</h1>
                     <h3>
                         Feeds 12 people 4oz each
                     </h3>
@@ -63,7 +69,7 @@ export default function Catering() {
                 <div className="catering5 catering">
                     <h1>Taco Bar</h1>
                     <h3>
-                        <u>$10/person</u>
+                        <u>$12/person</u>
                     </h3>
                     <h3>
                         2 Meats, 2oz each. Rice & Beans, 4oz each.<br />
@@ -83,7 +89,7 @@ export default function Catering() {
                     </h3>
                 </div>
                 <div className="catering7 catering">
-                    <h1>$32 TACO PACK</h1>
+                    <h1>$38 TACO PACK</h1>
                     <h3>
                         <u>12 Tacos</u>
                     </h3>
@@ -96,7 +102,7 @@ export default function Catering() {
                     </h3>
                 </div>
                 <div className="catering6 catering">
-                    <h1>$30 BREAKFAST TACO PACKS</h1>
+                    <h1>$35 BREAKFAST TACO PACKS</h1>
                     <h3>
                         <u>$1.99 each</u>
                     </h3>

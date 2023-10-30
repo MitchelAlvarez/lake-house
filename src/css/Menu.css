@@ -153,6 +153,10 @@ nav a:focus {
     padding-bottom: 0rem
 }
 
+/* article {
+    
+} */
+
 .sub-item {
     padding-bottom: 0.5rem;
     justify-content: center;
@@ -203,7 +207,7 @@ nav a:focus {
 /* gotop*/
 .go-top_container {
     position: fixed;
-    bottom: 4rem;
+    bottom: 11rem;
     left: 92%;
     width: 6.6rem;
     height: 6.6rem;
@@ -227,7 +231,7 @@ nav a:focus {
 /* phone*/
 .phone_container {
     position: fixed;
-    bottom: -1rem;
+    bottom: 6rem;
     left: 92%;
     width: 6.6rem;
     height: 6.6rem;
@@ -282,6 +286,14 @@ nav a:focus {
 
 .show i {
     transform: translate(-50%, -50%) scale(1);
+}
+
+aside {
+    background-color: var(--clr-primary);
+    margin: 10px 9rem 10px 16rem;
+    font-size: large;
+    color: white;
+    padding: 1.5rem;
 }
 
 @keyframes popup {
@@ -357,11 +369,17 @@ nav a:focus {
         padding-left: 1rem
     }
 
+    aside {
+        margin: 0;
+    }
+
 }
 
 @media only screen and (max-width:450px) {
     .phone_container {
         display: block;
     }
+
+
 
 }

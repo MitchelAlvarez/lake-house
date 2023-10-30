@@ -17,7 +17,7 @@ export default function Root() {
                 <nav className="bigNav">
                     <ul role="menu">
                         <li role="menuitem" className="menu-item"><NavLink to="/">Home</NavLink></li>
-                        <li role="menuitem" className="menu-item"><NavLink to="https://lakehousebbq.hrpos.heartland.us/menu">Order Online</NavLink></li>
+                        <li role="menuitem" className="menu-item"><NavLink to="https://lakehousebbq.hrpos.heartland.us/menu" target="_blank" rel="nonreferrer">Order Online</NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="menu">Menu</NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="contact_us">Contact Us</NavLink></li>
                         <li role="menuitem" className="menu-item"><NavLink to="catering">Catering</NavLink></li>
@@ -39,6 +39,9 @@ export default function Root() {
                 <hr className="header-separator" />
                 <Outlet />
             </main>
+            <footer>
+                Copyright © 2023 - Powered by Mitchel Dev
+            </footer>
         </>
     )
 }
