@@ -14,7 +14,7 @@ export default function ContactUs() {
                 <h1>Order to pick up</h1>
                 <h1>Number: (707)274-9114</h1>
             </div>
-            <h1 className="socialTittle">Don forget to follow us in our social Media</h1>
+            <h1 className="socialTittle">Don't forget to follow us in our social Media</h1>
             <div className="grid-item social_media">
                 <a href="https://www.facebook.com/profile.php?id=61550230981807&mibextid=LQQJ4d"><img className="grid-social" src={facbook} alt="Facebook"></img></a>
                 <a href="https://instagram.com/lakehouse.brew.bbq?igshid=MzRlODBiNWFlZA=="><img className="grid-social" src={instagram} alt="Instagram"></img></a>

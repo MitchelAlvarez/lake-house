@@ -14,7 +14,7 @@ export default function Menu() {
     return (
         <>
             <section className="sub-menu">
-                <div><button onClick={() => setSubMenu("Break Fast")}>Break Fast</button></div>
+                <div><button onClick={() => setSubMenu("Break Fast")}>Breakfast</button></div>
                 <div><button onClick={() => setSubMenu("Meals")}>Meals & Dinners</button></div>
                 <div><button onClick={() => setSubMenu("Drinks")}>Drinks</button></div>
             </section>

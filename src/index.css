@@ -30,7 +30,7 @@ html {
 
 body {
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
     min-height: 100%;
     width: 100%;
 
@@ -141,7 +141,8 @@ footer {
     }
 
     .navbar_logo {
-        padding-left: 2rem
+        padding-left: 2rem;
+        padding-top: 1rem;
     }
 
     .navbar_logo img {
@@ -208,6 +209,7 @@ footer {
 @media only screen and (max-width: 799px) {
     .collapseMenu {
         padding-left: 3rem;
+        padding-top: 0.5rem;
     }
 
 }

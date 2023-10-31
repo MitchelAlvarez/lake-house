@@ -1,9 +1,15 @@
 h1 {
     padding-bottom: 2rem;
+
 }
 
 h2 {
     padding-bottom: 1rem;
+}
+
+.home-title {
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .container-home {
